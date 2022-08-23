@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "389268929850",
+    "project_id": "instagram-clone-5ad85",
+    "storage_bucket": "instagram-clone-5ad85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389268929850:android:528b5cfd5d5ed1d58d6403",
+        "android_client_info": {
+          "package_name": "com.dangtu.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389268929850-d1jgjct4e9u7un1miedclldtf9vm8lc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI00Yn-8nnmVpxIPoa11LhXHHwwi30gQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389268929850-d1jgjct4e9u7un1miedclldtf9vm8lc1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "389268929850-fqe4qkoeksqg93qhsj09v2nk7s38nbro.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dangtu.instagram"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
