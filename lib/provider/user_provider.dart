@@ -3,14 +3,14 @@ import 'package:instagram/models/user.dart';
 import 'package:instagram/resources/auth_methods.dart';
 
 class UserProvider with ChangeNotifier {
-  User? _user;
+  User? user;
   final AuthMethods _authMethods = AuthMethods();
 
-  User get getUser => _user!;
+  User get getUser => user!;
 
   Future<void> refreshUser() async {
-    User user = await _authMethods.getUserDetails();
-    _user = user;
+    User user1 = await _authMethods.getUserDetails();
+    user = user1;
     notifyListeners();
   }
 }

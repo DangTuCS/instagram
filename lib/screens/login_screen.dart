@@ -4,7 +4,6 @@ import 'package:instagram/resources/auth_methods.dart';
 import 'package:instagram/screens/signup_screen.dart';
 import 'package:instagram/utils/utils.dart';
 import 'package:provider/provider.dart';
-
 import '../provider/user_provider.dart';
 import '../responsive/mobile_screen_layout.dart';
 import '../responsive/responsive_layout_screen.dart';
@@ -53,7 +52,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
         ),
       );
-      UserProvider userProvider = Provider.of(context, listen: false);
+      UserProvider userProvider = Provider.of(context);
       await userProvider.refreshUser();
     }
     setState(() {

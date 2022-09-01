@@ -12,6 +12,11 @@ pickImage(ImageSource imageSource) async {
 }
 
 showSnackBar(String content, BuildContext context) {
+  if (content.contains(']')) {
+    content = content.substring(
+      content.indexOf(']')+1,
+    );
+  }
   ScaffoldMessenger.of(context).showSnackBar(
     SnackBar(
       content: Text(content),
